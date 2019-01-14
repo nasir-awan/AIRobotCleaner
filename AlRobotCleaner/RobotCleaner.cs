@@ -31,7 +31,7 @@ namespace AIRobotCleaner.Domain
 
         public string DisplayResults()
         {
-            return $"Cleaned {UniqueCleanedLocations.Count}";
+            return $"=> Cleaned: {UniqueCleanedLocations.Count}";
         }
 
         private void ProcessCommand(ICommand command)
